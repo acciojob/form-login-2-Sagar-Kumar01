@@ -6,5 +6,5 @@ forms.addEventListener("submit",()=>{
 	let lname = document.getElementById("LastName");
 	let ph = document.getElementById("PhoneNumber");
 	let eid = document.getElementById("EmailID");
-	alert(`${fname.name} ${fname.value} ${lname.name} ${lname.value} ${ph.name} ${ph.value} ${eid.name} ${eid.value}`)
+	alert(`${fname.name}: ${fname.value} ${lname.name}: ${lname.value} ${ph.name}: ${ph.value} ${eid.name}: ${eid.value}`)
 })
